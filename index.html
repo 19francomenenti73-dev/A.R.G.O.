@@ -117,11 +117,16 @@ const map=L.map("map",{
 
 L.control.zoom({position:"bottomright"}).addTo(map);
 
+/* Leaflet + OpenStreetMap.
+   Nessun servizio CARTO, nessuna API key. */
 L.tileLayer(
- "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+ "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
  {
-  attribution:"&copy; OpenStreetMap &copy; CARTO",
-  maxZoom:19
+  attribution:
+   '&copy; <a href="https://www.openstreetmap.org/copyright">'+
+   'OpenStreetMap contributors</a>',
+  maxZoom:19,
+  tileSize:256
  }
 ).addTo(map);
 
