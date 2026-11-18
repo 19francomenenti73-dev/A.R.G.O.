@@ -1,11 +1,9 @@
 {
-  "timestamp": "2026-11-18T06:10:00Z",
-  "previous_timestamp": "2026-11-18T06:00:00Z",
+  "timestamp": "2026-11-18T06:30:00Z",
+  "previous_timestamp": "2026-11-18T06:20:00Z",
   "interval_minutes": 10.0,
   "previous_cells": 86,
-  "current_cells": 95,
-  "matched_cells": 51,
-  "unmatched_cells": 44,
-  "method": "two-frame-observed",
+  "current_cells": 91,
+  "matched_cells": 56,
   "quality_status": "experimental"
 }
