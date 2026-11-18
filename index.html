@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101d2b">
+<title>A.R.G.O. | Nowcasting Italia</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{
+ --bg:#101d2b;--surface:#17283a;--border:#30465b;
+ --text:#e8eff6;--muted:#9aabba;--accent:#48a9d5;
+ --real:#36b6df;--forecast:#e6a34a
+}
+*{box-sizing:border-box}
+html,body{
+ margin:0;width:100%;height:100%;overflow:hidden;
+ background:var(--bg);color:var(--text);
+ font:14px system-ui,-apple-system,"Segoe UI",sans-serif
+}
+button{
+ background:#1c3045;color:var(--text);
+ border:1px solid var(--border);border-radius:5px;
+ padding:7px 10px;font:inherit;cursor:pointer
+}
+header{
+ height:62px;background:#142438;
+ border-bottom:1px solid var(--border);
+ display:flex;align-items:center;justify-content:space-between;
+ padding:0 16px;gap:10px
+}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{
+ width:42px;height:42px;display:grid;place-items:center;
+ border:1px solid #4c91b4;border-radius:9px;
+ background:#102b42
+}
+.logo svg{width:36px;height:36px}
+.sweep{transform-origin:25px 25px;animation:sweep 4s linear infinite}
+@keyframes sweep{to{transform:rotate(360deg)}}
+.brand-name{
+ color:#48a9ef;font-size:19px;font-weight:800;
+ letter-spacing:2px;animation:pulse 3s ease-in-out infinite
+}
+@keyframes pulse{
+ 50%{color:#9ce8ff;text-shadow:0 0 12px #48a9ef}
+}
+.brand-sub{font-size:9px;color:var(--muted);letter-spacing:1px}
+#status{font-size:10px;color:#b8c7d5;text-align:right}
+.shell{
+ height:calc(100% - 62px);display:flex;flex-direction:column
+}
+.toolbar{
+ height:44px;flex-shrink:0;background:var(--surface);
+ display:flex;align-items:center;justify-content:space-between;
+ padding:0 12px;border-bottom:1px solid var(--border)
+}
+.toolbar strong{font-size:11px}
+.actions{display:flex;gap:6px}
+.actions button{font-size:10px}
+.workspace{padding:8px;flex:1;min-height:0}
+.panel{
+ height:100%;display:flex;flex-direction:column;
+ background:var(--surface);border:1px solid var(--border);
+ border-radius:7px;overflow:hidden
+}
+.panel-head{
+ height:40px;flex-shrink:0;background:#1a2c40;
+ display:flex;align-items:center;justify-content:space-between;
+ padding:0 12px;font-size:11px
+}
+.panel-head small{color:var(--muted)}
+.map-frame{flex:1;min-height:0;position:relative}
+#map{position:absolute;inset:0;background:#d5dce2}
+.leaflet-image-layer.argo-radar{
+ filter:saturate(1.28) contrast(1.22) brightness(1.06)
+}
+.legend{
+ min-height:38px;display:flex;align-items:center;
+ justify-content:center;flex-wrap:wrap;gap:14px;
+ padding:6px;background:var(--surface)
+}
+.legend span{font-size:10px;color:#c5d1dc}
+.dot{
+ display:inline-block;width:9px;height:9px;
+ border-radius:50%;margin-right:5px
+}
+.leaflet-popup-content-wrapper{
+ background:#17283a;color:var(--text);
+ border:1px solid #49647a;border-radius:6px
+}
+.leaflet-popup-tip{background:#17283a}
+.popup-title{font-weight:800;margin-bottom:8px}
+.popup-line{font-size:11px;margin:5px 0}
+.popup-note{font-size:10px;color:#9aabba;margin-top:8px}
+footer{
+ font-size:9px;color:var(--muted);
+ text-align:center;padding:5px 8px
+}
+@media(max-width:650px){
+ header{height:68px;padding:0 9px}
+ .shell{height:calc(100% - 68px)}
+ .logo{width:35px;height:35px}
+ .logo svg{width:31px;height:31px}
+ .brand-name{font-size:16px}
+ .brand-sub{font-size:7px;letter-spacing:.3px}
+ #status{font-size:8px;max-width:110px}
+ .toolbar{padding:0 7px}
+ .toolbar strong{font-size:10px}
+ .actions button{padding:6px;font-size:9px}
+ .workspace{padding:4px}
+ .legend{gap:8px}
+ .legend span{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){
+ .sweep,.brand-name{animation:none}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="brand">
+  <div class="logo">
+   <svg viewBox="0 0 50 50" aria-label="Radar A.R.G.O.">
+    <circle cx="25" cy="25" r="21" fill="none" stroke="#48a9ef" stroke-width="2"/>
+    <circle cx="25" cy="25" r="14" fill="none" stroke="#397ee8" opacity=".7"/>
+    <circle cx="25" cy="25" r="7" fill="none" stroke="#397ee8" opacity=".7"/>
+    <path d="M4 25H46M25 4V46" stroke="#397ee8" opacity=".35"/>
+    <g class="sweep">
+     <path d="M25 25L25 4A21 21 0 0 1 46 25Z" fill="#48a9ef" opacity=".25"/>
+     <path d="M25 25L25 4" stroke="#9ce8ff" stroke-width="2"/>
+    </g>
+    <circle cx="35" cy="15" r="3" fill="#9ce8ff"/>
+   </svg>
+  </div>
+  <div>
+   <div class="brand-name">A.R.G.O.</div>
+   <div class="brand-sub">RADAR CELL TRACKING · NOWCASTING ITALIA</div>
+  </div>
+ </div>
+ <div id="status">In attesa dei dati</div>
+</header>
+
+<div class="shell">
+ <div class="toolbar">
+  <strong>TRACKER RADAR OSSERVATIVO</strong>
+  <div class="actions">
+   <button id="observed">Tracce ON</button>
+   <button id="predicted">Previsioni ON</button>
+   <button id="reload">Aggiorna</button>
+  </div>
+ </div>
+ <main class="workspace">
+  <section class="panel">
+   <div class="panel-head">
+    <strong>Radar · Centroidi · Vettori</strong>
+    <small id="scanTime">—</small>
+   </div>
+   <div class="map-frame"><div id="map"></div></div>
+   <div class="legend">
+    <span><i class="dot" style="background:#48a9ef"></i>Centroidi</span>
+    <span><i class="dot" style="background:#36b6df"></i>Osservato</span>
+    <span><i class="dot" style="background:#e6a34a"></i>Predittivo</span>
+   </div>
+  </section>
+ </main>
+ <footer id="credits">Nowcasting Italia · Dati radar con attribuzione della fonte</footer>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+"use strict";
+
+const DATA_URL="data/iride.json";
+const HISTORY_URL="data/iride_history.json";
+const MAX_AGE_MIN=70;
+const MAX_SPEED_KMH=140;
+const MIN_INTERVAL_MIN=5;
+
+const map=L.map("map",{
+ center:[42.5,12.5],zoom:6,
+ zoomControl:true,preferCanvas:true
+});
+
+L.tileLayer(
+ "https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png",
+ {
+  attribution:'&copy; OpenStreetMap &copy; CARTO',
+  maxZoom:19
+ }
+).addTo(map);
+
+const radarLayer=L.layerGroup().addTo(map);
+const centroidLayer=L.layerGroup().addTo(map);
+const observedLayer=L.layerGroup().addTo(map);
+const predictedLayer=L.layerGroup().addTo(map);
+
+let showObserved=true;
+let showPredicted=true;
+let lastPayload=null;
+let lastHistory=null;
+
+function safeNumber(v){
+ const n=Number(v);
+ return Number.isFinite(n)?n:null;
+}
+function validPoint(p){
+ return p&&
+  safeNumber(p.lat)!==null&&
+  safeNumber(p.lon)!==null&&
+  Math.abs(Number(p.lat))<=90&&
+  Math.abs(Number(p.lon))<=180;
+}
+function haversine(a,b){
+ const rad=Math.PI/180;
+ const p1=a.lat*rad,p2=b.lat*rad;
+ const dp=(b.lat-a.lat)*rad;
+ const dl=(b.lon-a.lon)*rad;
+ const h=Math.sin(dp/2)**2+
+  Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2;
+ return 12742*Math.asin(Math.sqrt(Math.min(1,h)));
+}
+function bearing(a,b){
+ const r=Math.PI/180;
+ const p1=a.lat*r,p2=b.lat*r;
+ const dl=(b.lon-a.lon)*r;
+ const y=Math.sin(dl)*Math.cos(p2);
+ const x=Math.cos(p1)*Math.sin(p2)-
+  Math.sin(p1)*Math.cos(p2)*Math.cos(dl);
+ return (Math.atan2(y,x)/r+360)%360;
+}
+function segment(a,b){
+ if(!validPoint(a)||!validPoint(b))return null;
+ const t0=Date.parse(a.timestamp);
+ const t1=Date.parse(b.timestamp);
+ if(!Number.isFinite(t0)||!Number.isFinite(t1))return null;
+ const minutes=(t1-t0)/60000;
+ if(minutes<MIN_INTERVAL_MIN||minutes>MAX_AGE_MIN)return null;
+ const km=haversine(a,b);
+ const speed=km*60/minutes;
+ if(speed>MAX_SPEED_KMH)return null;
+ return {a,b,km,speed,minutes,direction:bearing(a,b)};
+}
+function pointArray(p){return [Number(p.lat),Number(p.lon)]}
+function fmt(v,d=1){return Number(v).toFixed(d)}
+function timeLabel(value){
+ const t=Date.parse(value);
+ return Number.isFinite(t)?
+  new Date(t).toLocaleString("it-IT",{timeZone:"UTC"})+" UTC":"—";
+}
+function arrowHead(a,b,color){
+ const A=map.latLngToLayerPoint(pointArray(a));
+ const B=map.latLngToLayerPoint(pointArray(b));
+ const dx=B.x-A.x,dy=B.y-A.y;
+ const len=Math.hypot(dx,dy);
+ if(len<12)return;
+ const ux=dx/len,uy=dy/len;
+ const size=9;
+ const left=L.point(
+  B.x-ux*size-uy*size*.55,
+  B.y-uy*size+ux*size*.55
+ );
+ const right=L.point(
+  B.x-ux*size+uy*size*.55,
+  B.y-uy*size-ux*size*.55
+ );
+ L.polyline([
+  map.layerPointToLatLng(left),
+  pointArray(b),
+  map.layerPointToLatLng(right)
+ ],{color,weight:2,interactive:false}).addTo(observedLayer);
+}
+function renderObserved(history){
+ observedLayer.clearLayers();
+ if(!showObserved||!history?.tracks)return;
+ for(const track of Object.values(history.tracks)){
+  const obs=track.observations||[];
+  for(let i=1;i<obs.length;i++){
+   const s=segment(obs[i-1],obs[i]);
+   if(!s)continue;
+   const line=L.polyline(
+    [pointArray(s.a),pointArray(s.b)],
+    {color:"#36b6df",weight:3,opacity:.9}
+   );
+   line.bindPopup(
+    '<div class="popup-title">Segmento osservato</div>'+
+    '<div class="popup-line">Distanza: '+fmt(s.km)+' km</div>'+
+    '<div class="popup-line">Velocità: '+fmt(s.speed)+' km/h</div>'+
+    '<div class="popup-line">Direzione: '+fmt(s.direction,0)+'°</div>'+
+    '<div class="popup-line">Intervallo: '+fmt(s.minutes,0)+' min</div>'+
+    '<div class="popup-note">Associazione storica IRIDE: da validare</div>'
+   );
+   line.addTo(observedLayer);
+   arrowHead(s.a,s.b,"#36b6df");
+  }
+ }
+}
+function renderPredictions(cells){
+ predictedLayer.clearLayers();
+ if(!showPredicted)return;
+ for(const cell of cells){
+  const v=cell.vectors||{};
+  for(const [key,opacity] of [
+   ["predictive_30m",.9],
+   ["predictive_60m",.7],
+   ["predictive_180m",.4]
+  ]){
+   const points=v[key];
+   if(!Array.isArray(points)||points.length!==2)continue;
+   if(!points.every(p=>
+    Array.isArray(p)&&p.length===2&&
+    p.every(x=>Number.isFinite(Number(x)))
+   ))continue;
+   L.polyline(points,{
+    color:"#e6a34a",weight:2,opacity,dashArray:"6 6"
+   }).addTo(predictedLayer);
+  }
+ }
+}
+function renderCells(cells){
+ centroidLayer.clearLayers();
+ for(const cell of cells){
+  if(!validPoint(cell))continue;
+  const track=cell.track||{};
+  const obs=track.observations||[];
+  const last=obs.length>=2?
+   segment(obs[obs.length-2],obs[obs.length-1]):null;
+  const circle=L.circleMarker(pointArray(cell),{
+   radius:7,color:"#e8eff6",weight:1.5,
+   fillColor:"#48a9ef",fillOpacity:.95
+  });
+  let html='<div class="popup-title">Cella '+String(cell.id||"")+'</div>';
+  html+='<div class="popup-line">Lat: '+fmt(cell.lat,4)+
+   ' · Lon: '+fmt(cell.lon,4)+'</div>';
+  html+='<div class="popup-line">Riflettività max: '+
+   fmt(cell.max_dbz)+' dBZ</div>';
+  html+='<div class="popup-line">Traccia: '+
+   String(cell.track_id||"non disponibile")+'</div>';
+  if(last){
+   html+='<div class="popup-line">Ultimo spostamento: '+
+    fmt(last.km)+' km</div>';
+   html+='<div class="popup-line">Velocità apparente: '+
+    fmt(last.speed)+' km/h</div>';
+   html+='<div class="popup-line">Direzione: '+
+    fmt(last.direction,0)+'°</div>';
+  }
+  html+='<div class="popup-note">Dati osservativi radar. '+
+   'Identità della cella da validare.</div>';
+  circle.bindPopup(html).addTo(centroidLayer);
+ }
+}
+function renderRadar(payload){
+ radarLayer.clearLayers();
+ const overlay=payload.radar_overlay;
+ if(!overlay?.image||!Array.isArray(overlay.bounds))return;
+ const url=new URL(overlay.image,DATA_URL);
+ L.imageOverlay(url.href,overlay.bounds,{
+  opacity:overlay.opacity??.82,
+  className:"argo-radar"
+ }).addTo(radarLayer);
+}
+function render(){
+ if(!lastPayload)return;
+ renderRadar(lastPayload);
+ renderCells(lastPayload.cells||[]);
+ renderObserved(lastHistory);
+ renderPredictions(lastPayload.cells||[]);
+}
+async function getJSON(path){
+ const response=await fetch(path+"?v="+Date.now(),{cache:"no-store"});
+ if(!response.ok)throw Error(path+": HTTP "+response.status);
+ return response.json();
+}
+async function load(){
+ const status=document.getElementById("status");
+ status.textContent="Caricamento...";
+ try{
+  const payload=await getJSON(DATA_URL);
+  if(!Array.isArray(payload.cells))throw Error("JSON radar non valido");
+  let history=null;
+  try{history=await getJSON(HISTORY_URL)}
+  catch(e){console.warn("Storico non disponibile",e)}
+  lastPayload=payload;
+  lastHistory=history;
+  render();
+  document.getElementById("scanTime").textContent=
+   timeLabel(payload.timestamp);
+  status.textContent=(payload.cells.length)+" celle · "+
+   (history?"storico presente":"storico assente");
+  const source=payload.source||{};
+  document.getElementById("credits").textContent=
+   source.attribution||
+   "Nowcasting Italia · Attribuzione fonte radar necessaria";
+ }catch(error){
+  status.textContent="Dati non disponibili";
+  console.error(error);
+ }
+}
+document.getElementById("observed").onclick=function(){
+ showObserved=!showObserved;
+ this.textContent=showObserved?"Tracce ON":"Tracce OFF";
+ render();
+};
+document.getElementById("predicted").onclick=function(){
+ showPredicted=!showPredicted;
+ this.textContent=showPredicted?"Previsioni ON":"Previsioni OFF";
+ render();
+};
+document.getElementById("reload").onclick=load;
+map.on("zoomend",()=>{
+ if(lastHistory)renderObserved(lastHistory);
+});
+load();
+</script>
+</body>
+  </html>
+  
