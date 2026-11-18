@@ -1,0 +1,2220 @@
+{
+  "schema_version": 3,
+  "timestamp": "2026-11-18T06:10:00Z",
+  "generated_at": "2026-11-18T06:18:26.851114+00:00",
+  "source": {
+    "provider": "RainViewer",
+    "attribution": "Weather data by RainViewer",
+    "url": "https://www.rainviewer.com/",
+    "product": "Radar composite PNG",
+    "method": "Color segmentation, not raw dBZ"
+  },
+  "radar_tiles": {
+    "host": "https://tilecache.rainviewer.com",
+    "path": "/v2/radar/cd87a9b7d7e6",
+    "zoom_max": 7,
+    "color": 2,
+    "options": "0_0"
+  },
+  "cell_count": 95,
+  "observed_vectors": 51,
+  "cells": [
+    {
+      "lat": 45.75694,
+      "lon": 7.1474,
+      "area_px": 9101,
+      "intensity_index": 0.793,
+      "max_dbz": null,
+      "id": "CELL-1",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.26744,
+      "lon": 15.85259,
+      "area_px": 7716,
+      "intensity_index": 0.754,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-1",
+      "track": {
+        "observations": [
+          {
+            "lat": 48.27926,
+            "lon": 15.72971,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 48.26744,
+            "lon": 15.85259,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 55.13,
+        "direction_deg": 98.2,
+        "distance_km": 9.19,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-2"
+    },
+    {
+      "lat": 46.9852,
+      "lon": 9.49138,
+      "area_px": 7069,
+      "intensity_index": 0.772,
+      "max_dbz": null,
+      "id": "CELL-3",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.00823,
+      "lon": 6.25654,
+      "area_px": 2067,
+      "intensity_index": 0.757,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-2",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.87592,
+            "lon": 6.21009,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.00823,
+            "lon": 6.25654,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 90.77,
+        "direction_deg": 13.5,
+        "distance_km": 15.13,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-4"
+    },
+    {
+      "lat": 43.67154,
+      "lon": 5.18988,
+      "area_px": 1977,
+      "intensity_index": 0.765,
+      "max_dbz": null,
+      "id": "CELL-5",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.29764,
+      "lon": 18.81686,
+      "area_px": 1864,
+      "intensity_index": 0.747,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-5",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.27075,
+            "lon": 18.76193,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.29764,
+            "lon": 18.81686,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 30.66,
+        "direction_deg": 54.2,
+        "distance_km": 5.11,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-6"
+    },
+    {
+      "lat": 44.87737,
+      "lon": 15.24075,
+      "area_px": 1485,
+      "intensity_index": 0.77,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-6",
+      "track": {
+        "observations": [
+          {
+            "lat": 44.90495,
+            "lon": 15.11975,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 44.87737,
+            "lon": 15.24075,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 60.08,
+        "direction_deg": 107.8,
+        "distance_km": 10.01,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-7"
+    },
+    {
+      "lat": 42.27067,
+      "lon": 19.4254,
+      "area_px": 1450,
+      "intensity_index": 0.82,
+      "max_dbz": null,
+      "id": "CELL-8",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.61732,
+      "lon": 16.69924,
+      "area_px": 1058,
+      "intensity_index": 0.755,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-8",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.55117,
+            "lon": 16.56748,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 46.61732,
+            "lon": 16.69924,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 74.82,
+        "direction_deg": 53.8,
+        "distance_km": 12.47,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-9"
+    },
+    {
+      "lat": 47.9624,
+      "lon": 6.8487,
+      "area_px": 899,
+      "intensity_index": 0.769,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-4",
+      "track": {
+        "observations": [
+          {
+            "lat": 48.10821,
+            "lon": 6.9723,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.9624,
+            "lon": 6.8487,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 111.82,
+        "direction_deg": 209.6,
+        "distance_km": 18.64,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-10"
+    },
+    {
+      "lat": 45.50867,
+      "lon": 16.42763,
+      "area_px": 802,
+      "intensity_index": 0.825,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-11",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.50161,
+            "lon": 16.2718,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.50867,
+            "lon": 16.42763,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 73.02,
+        "direction_deg": 86.2,
+        "distance_km": 12.17,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-11"
+    },
+    {
+      "lat": 45.62183,
+      "lon": 18.29941,
+      "area_px": 714,
+      "intensity_index": 0.864,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-15",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.63616,
+            "lon": 18.19876,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.62183,
+            "lon": 18.29941,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 47.92,
+        "direction_deg": 101.5,
+        "distance_km": 7.99,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-12"
+    },
+    {
+      "lat": 39.27191,
+      "lon": 11.39876,
+      "area_px": 710,
+      "intensity_index": 0.882,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-13",
+      "track": {
+        "observations": [
+          {
+            "lat": 39.2704,
+            "lon": 11.38536,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 39.27191,
+            "lon": 11.39876,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 6.99,
+        "direction_deg": 81.7,
+        "distance_km": 1.17,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-13"
+    },
+    {
+      "lat": 43.38033,
+      "lon": 17.8531,
+      "area_px": 653,
+      "intensity_index": 0.728,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-7",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.24195,
+            "lon": 17.89705,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.38033,
+            "lon": 17.8531,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 94.76,
+        "direction_deg": 347.0,
+        "distance_km": 15.79,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-14"
+    },
+    {
+      "lat": 48.37871,
+      "lon": 7.19425,
+      "area_px": 650,
+      "intensity_index": 0.797,
+      "max_dbz": null,
+      "id": "CELL-15",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.0914,
+      "lon": 16.06328,
+      "area_px": 571,
+      "intensity_index": 0.815,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-9",
+      "track": {
+        "observations": [
+          {
+            "lat": 44.04987,
+            "lon": 16.13164,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 44.0914,
+            "lon": 16.06328,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 42.91,
+        "direction_deg": 310.2,
+        "distance_km": 7.15,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-16"
+    },
+    {
+      "lat": 47.05218,
+      "lon": 12.1669,
+      "area_px": 554,
+      "intensity_index": 0.758,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-12",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.04878,
+            "lon": 12.09443,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.05218,
+            "lon": 12.1669,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 33.02,
+        "direction_deg": 86.0,
+        "distance_km": 5.5,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-17"
+    },
+    {
+      "lat": 43.08246,
+      "lon": 18.73293,
+      "area_px": 532,
+      "intensity_index": 0.784,
+      "max_dbz": null,
+      "id": "CELL-18",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.29633,
+      "lon": 19.09323,
+      "area_px": 435,
+      "intensity_index": 0.745,
+      "max_dbz": null,
+      "id": "CELL-19",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.92377,
+      "lon": 18.3486,
+      "area_px": 384,
+      "intensity_index": 0.791,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-10",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.93796,
+            "lon": 18.13502,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 46.92377,
+            "lon": 18.3486,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 97.77,
+        "direction_deg": 95.5,
+        "distance_km": 16.29,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-20"
+    },
+    {
+      "lat": 42.89796,
+      "lon": 18.13479,
+      "area_px": 314,
+      "intensity_index": 0.79,
+      "max_dbz": null,
+      "id": "CELL-21",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.32609,
+      "lon": 7.47432,
+      "area_px": 304,
+      "intensity_index": 0.728,
+      "max_dbz": null,
+      "id": "CELL-22",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.37661,
+      "lon": 12.12506,
+      "area_px": 286,
+      "intensity_index": 0.803,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-18",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.36466,
+            "lon": 12.01866,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.37661,
+            "lon": 12.12506,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 48.73,
+        "direction_deg": 80.5,
+        "distance_km": 8.12,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-23"
+    },
+    {
+      "lat": 43.70125,
+      "lon": 17.20978,
+      "area_px": 258,
+      "intensity_index": 0.796,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-20",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.68881,
+            "lon": 17.26602,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.70125,
+            "lon": 17.20978,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 28.37,
+        "direction_deg": 287.0,
+        "distance_km": 4.73,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-24"
+    },
+    {
+      "lat": 46.61213,
+      "lon": 11.78576,
+      "area_px": 256,
+      "intensity_index": 0.794,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-17",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.61045,
+            "lon": 11.63731,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 46.61213,
+            "lon": 11.78576,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 68.05,
+        "direction_deg": 89.0,
+        "distance_km": 11.34,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-25"
+    },
+    {
+      "lat": 48.02885,
+      "lon": 8.06019,
+      "area_px": 250,
+      "intensity_index": 0.786,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-16",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.98435,
+            "lon": 8.1173,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 48.02885,
+            "lon": 8.06019,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 39.13,
+        "direction_deg": 319.4,
+        "distance_km": 6.52,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-26"
+    },
+    {
+      "lat": 42.45081,
+      "lon": 12.97933,
+      "area_px": 233,
+      "intensity_index": 0.762,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-22",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.54612,
+            "lon": 12.9333,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.45081,
+            "lon": 12.97933,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 67.5,
+        "direction_deg": 160.4,
+        "distance_km": 11.25,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-27"
+    },
+    {
+      "lat": 44.69023,
+      "lon": 6.89774,
+      "area_px": 223,
+      "intensity_index": 0.819,
+      "max_dbz": null,
+      "id": "CELL-28",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 40.85777,
+      "lon": 8.51797,
+      "area_px": 222,
+      "intensity_index": 0.802,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-19",
+      "track": {
+        "observations": [
+          {
+            "lat": 40.87868,
+            "lon": 8.46813,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 40.85777,
+            "lon": 8.51797,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 28.76,
+        "direction_deg": 119.0,
+        "distance_km": 4.79,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-29"
+    },
+    {
+      "lat": 47.8864,
+      "lon": 8.37879,
+      "area_px": 183,
+      "intensity_index": 0.736,
+      "max_dbz": null,
+      "id": "CELL-30",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 45.40502,
+      "lon": 19.45454,
+      "area_px": 176,
+      "intensity_index": 0.806,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-26",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.4066,
+            "lon": 19.36577,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.40502,
+            "lon": 19.45454,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 41.59,
+        "direction_deg": 91.4,
+        "distance_km": 6.93,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-31"
+    },
+    {
+      "lat": 45.91781,
+      "lon": 16.19318,
+      "area_px": 165,
+      "intensity_index": 0.83,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-31",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.91018,
+            "lon": 16.05593,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.91781,
+            "lon": 16.19318,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 63.91,
+        "direction_deg": 85.4,
+        "distance_km": 10.65,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-32"
+    },
+    {
+      "lat": 42.27255,
+      "lon": 17.96412,
+      "area_px": 164,
+      "intensity_index": 0.802,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-24",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.31005,
+            "lon": 17.85575,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.27255,
+            "lon": 17.96412,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 59.05,
+        "direction_deg": 115.0,
+        "distance_km": 9.84,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-33"
+    },
+    {
+      "lat": 43.46067,
+      "lon": 15.02605,
+      "area_px": 142,
+      "intensity_index": 0.758,
+      "max_dbz": null,
+      "id": "CELL-34",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.97162,
+      "lon": 11.11674,
+      "area_px": 139,
+      "intensity_index": 0.745,
+      "max_dbz": null,
+      "id": "CELL-35",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.34122,
+      "lon": 5.36117,
+      "area_px": 137,
+      "intensity_index": 0.802,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-35",
+      "track": {
+        "observations": [
+          {
+            "lat": 48.35255,
+            "lon": 5.27578,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 48.34122,
+            "lon": 5.36117,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 38.61,
+        "direction_deg": 101.3,
+        "distance_km": 6.44,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-36"
+    },
+    {
+      "lat": 43.83719,
+      "lon": 11.27919,
+      "area_px": 137,
+      "intensity_index": 0.839,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-30",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.85054,
+            "lon": 11.10082,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.83719,
+            "lon": 11.27919,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 86.29,
+        "direction_deg": 95.9,
+        "distance_km": 14.38,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-37"
+    },
+    {
+      "lat": 48.46131,
+      "lon": 12.12659,
+      "area_px": 133,
+      "intensity_index": 0.781,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-29",
+      "track": {
+        "observations": [
+          {
+            "lat": 48.45408,
+            "lon": 11.88454,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 48.46131,
+            "lon": 12.12659,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 107.2,
+        "direction_deg": 87.3,
+        "distance_km": 17.87,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-38"
+    },
+    {
+      "lat": 45.91534,
+      "lon": 5.17163,
+      "area_px": 131,
+      "intensity_index": 0.776,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-25",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.9019,
+            "lon": 5.01587,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.91534,
+            "lon": 5.17163,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 72.86,
+        "direction_deg": 82.9,
+        "distance_km": 12.14,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-39"
+    },
+    {
+      "lat": 47.02033,
+      "lon": 19.9154,
+      "area_px": 129,
+      "intensity_index": 0.691,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-28",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.96987,
+            "lon": 19.89349,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.02033,
+            "lon": 19.9154,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 35.11,
+        "direction_deg": 16.5,
+        "distance_km": 5.85,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-40"
+    },
+    {
+      "lat": 42.38466,
+      "lon": 12.12112,
+      "area_px": 110,
+      "intensity_index": 0.804,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-21",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.39885,
+            "lon": 12.08696,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.38466,
+            "lon": 12.12112,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 19.31,
+        "direction_deg": 119.3,
+        "distance_km": 3.22,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-41"
+    },
+    {
+      "lat": 47.41127,
+      "lon": 13.13854,
+      "area_px": 99,
+      "intensity_index": 0.829,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-32",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.41506,
+            "lon": 13.00537,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.41127,
+            "lon": 13.13854,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 60.18,
+        "direction_deg": 92.4,
+        "distance_km": 10.03,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-42"
+    },
+    {
+      "lat": 43.8779,
+      "lon": 16.6373,
+      "area_px": 99,
+      "intensity_index": 0.806,
+      "max_dbz": null,
+      "id": "CELL-43",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 41.14101,
+      "lon": 7.39544,
+      "area_px": 87,
+      "intensity_index": 0.856,
+      "max_dbz": null,
+      "id": "CELL-44",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.7367,
+      "lon": 19.28561,
+      "area_px": 62,
+      "intensity_index": 0.594,
+      "max_dbz": null,
+      "id": "CELL-45",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 43.09178,
+      "lon": 18.4048,
+      "area_px": 61,
+      "intensity_index": 0.837,
+      "max_dbz": null,
+      "id": "CELL-46",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 42.64492,
+      "lon": 12.72924,
+      "area_px": 59,
+      "intensity_index": 0.857,
+      "max_dbz": null,
+      "id": "CELL-47",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.23367,
+      "lon": 6.69538,
+      "area_px": 56,
+      "intensity_index": 0.831,
+      "max_dbz": null,
+      "id": "CELL-48",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.47104,
+      "lon": 5.82395,
+      "area_px": 55,
+      "intensity_index": 0.817,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-51",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.50453,
+            "lon": 5.543,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.47104,
+            "lon": 5.82395,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 128.62,
+        "direction_deg": 99.9,
+        "distance_km": 21.44,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-49"
+    },
+    {
+      "lat": 46.50939,
+      "lon": 19.67751,
+      "area_px": 55,
+      "intensity_index": 0.736,
+      "max_dbz": null,
+      "id": "CELL-50",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.39397,
+      "lon": 9.40774,
+      "area_px": 51,
+      "intensity_index": 0.818,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-38",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.36548,
+            "lon": 9.20851,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.39397,
+            "lon": 9.40774,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 91.99,
+        "direction_deg": 78.0,
+        "distance_km": 15.33,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-51"
+    },
+    {
+      "lat": 44.35004,
+      "lon": 6.86839,
+      "area_px": 51,
+      "intensity_index": 0.84,
+      "max_dbz": null,
+      "id": "CELL-52",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 42.31534,
+      "lon": 17.13164,
+      "area_px": 50,
+      "intensity_index": 0.751,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-56",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.29176,
+            "lon": 17.19604,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.31534,
+            "lon": 17.13164,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 35.46,
+        "direction_deg": 296.4,
+        "distance_km": 5.91,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-53"
+    },
+    {
+      "lat": 42.41759,
+      "lon": 16.75766,
+      "area_px": 47,
+      "intensity_index": 0.785,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-41",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.41438,
+            "lon": 16.75918,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.41759,
+            "lon": 16.75766,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 2.27,
+        "direction_deg": 340.7,
+        "distance_km": 0.38,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-54"
+    },
+    {
+      "lat": 45.24842,
+      "lon": 18.5542,
+      "area_px": 45,
+      "intensity_index": 0.871,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-50",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.2399,
+            "lon": 18.46749,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.24842,
+            "lon": 18.5542,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 41.13,
+        "direction_deg": 82.0,
+        "distance_km": 6.85,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-55"
+    },
+    {
+      "lat": 42.57077,
+      "lon": 17.25313,
+      "area_px": 43,
+      "intensity_index": 0.814,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-54",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.58213,
+            "lon": 17.20684,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.57077,
+            "lon": 17.25313,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 23.97,
+        "direction_deg": 108.4,
+        "distance_km": 4.0,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-56"
+    },
+    {
+      "lat": 47.53204,
+      "lon": 14.04524,
+      "area_px": 42,
+      "intensity_index": 0.802,
+      "max_dbz": null,
+      "id": "CELL-57",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.45964,
+      "lon": 8.08165,
+      "area_px": 41,
+      "intensity_index": 0.805,
+      "max_dbz": null,
+      "id": "CELL-58",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.11884,
+      "lon": 5.26967,
+      "area_px": 35,
+      "intensity_index": 0.798,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-59",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.10342,
+            "lon": 5.12317,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.11884,
+            "lon": 5.26967,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 67.31,
+        "direction_deg": 81.2,
+        "distance_km": 11.22,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-59"
+    },
+    {
+      "lat": 43.39182,
+      "lon": 16.91078,
+      "area_px": 35,
+      "intensity_index": 0.777,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-47",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.40079,
+            "lon": 16.84863,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.39182,
+            "lon": 16.91078,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 30.72,
+        "direction_deg": 101.2,
+        "distance_km": 5.12,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-60"
+    },
+    {
+      "lat": 42.52024,
+      "lon": 12.38818,
+      "area_px": 35,
+      "intensity_index": 0.859,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-66",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.50575,
+            "lon": 12.29032,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.52024,
+            "lon": 12.38818,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 49.09,
+        "direction_deg": 78.6,
+        "distance_km": 8.18,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-61"
+    },
+    {
+      "lat": 42.09682,
+      "lon": 12.37123,
+      "area_px": 35,
+      "intensity_index": 0.886,
+      "max_dbz": null,
+      "id": "CELL-62",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.197,
+      "lon": 19.73278,
+      "area_px": 33,
+      "intensity_index": 0.839,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-57",
+      "track": {
+        "observations": [
+          {
+            "lat": 44.197,
+            "lon": 19.73278,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 44.197,
+            "lon": 19.73278,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 0.0,
+        "direction_deg": 0.0,
+        "distance_km": 0.0,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-63"
+    },
+    {
+      "lat": 47.115,
+      "lon": 18.16109,
+      "area_px": 32,
+      "intensity_index": 0.73,
+      "max_dbz": null,
+      "id": "CELL-64",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.70745,
+      "lon": 18.27204,
+      "area_px": 31,
+      "intensity_index": 0.668,
+      "max_dbz": null,
+      "id": "CELL-65",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 42.77038,
+      "lon": 19.18895,
+      "area_px": 29,
+      "intensity_index": 0.794,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-45",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.73313,
+            "lon": 19.19268,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.77038,
+            "lon": 19.18895,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 24.92,
+        "direction_deg": 355.8,
+        "distance_km": 4.15,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-66"
+    },
+    {
+      "lat": 48.26021,
+      "lon": 8.65801,
+      "area_px": 28,
+      "intensity_index": 0.831,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-33",
+      "track": {
+        "observations": [
+          {
+            "lat": 48.26653,
+            "lon": 8.54152,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 48.26021,
+            "lon": 8.65801,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 51.91,
+        "direction_deg": 94.6,
+        "distance_km": 8.65,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-67"
+    },
+    {
+      "lat": 47.65323,
+      "lon": 6.06759,
+      "area_px": 28,
+      "intensity_index": 0.812,
+      "max_dbz": null,
+      "id": "CELL-68",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 42.09701,
+      "lon": 12.68229,
+      "area_px": 27,
+      "intensity_index": 0.847,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-84",
+      "track": {
+        "observations": [
+          {
+            "lat": 42.05745,
+            "lon": 12.56836,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 42.09701,
+            "lon": 12.68229,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 62.29,
+        "direction_deg": 64.9,
+        "distance_km": 10.38,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-69"
+    },
+    {
+      "lat": 39.53229,
+      "lon": 11.00098,
+      "area_px": 27,
+      "intensity_index": 0.824,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-34",
+      "track": {
+        "observations": [
+          {
+            "lat": 39.58341,
+            "lon": 10.97361,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 39.53229,
+            "lon": 11.00098,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 36.9,
+        "direction_deg": 157.6,
+        "distance_km": 6.15,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-70"
+    },
+    {
+      "lat": 48.21003,
+      "lon": 5.0985,
+      "area_px": 26,
+      "intensity_index": 0.833,
+      "max_dbz": null,
+      "id": "CELL-71",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.13677,
+      "lon": 8.50067,
+      "area_px": 24,
+      "intensity_index": 0.779,
+      "max_dbz": null,
+      "id": "CELL-72",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 37.42689,
+      "lon": 14.66125,
+      "area_px": 24,
+      "intensity_index": 0.854,
+      "max_dbz": null,
+      "id": "CELL-73",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 43.03468,
+      "lon": 19.20792,
+      "area_px": 23,
+      "intensity_index": 0.813,
+      "max_dbz": null,
+      "id": "CELL-74",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 42.44662,
+      "lon": 11.83384,
+      "area_px": 21,
+      "intensity_index": 0.877,
+      "max_dbz": null,
+      "id": "CELL-75",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 47.9958,
+      "lon": 17.74622,
+      "area_px": 20,
+      "intensity_index": 0.69,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-61",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.99246,
+            "lon": 17.72587,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.9958,
+            "lon": 17.74622,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 9.36,
+        "direction_deg": 76.2,
+        "distance_km": 1.56,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-76"
+    },
+    {
+      "lat": 47.5617,
+      "lon": 12.86499,
+      "area_px": 20,
+      "intensity_index": 0.826,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-64",
+      "track": {
+        "observations": [
+          {
+            "lat": 47.55291,
+            "lon": 12.65218,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 47.5617,
+            "lon": 12.86499,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 96.0,
+        "direction_deg": 86.4,
+        "distance_km": 16.0,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-77"
+    },
+    {
+      "lat": 42.64204,
+      "lon": 19.27002,
+      "area_px": 20,
+      "intensity_index": 0.83,
+      "max_dbz": null,
+      "id": "CELL-78",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 40.51556,
+      "lon": 6.34085,
+      "area_px": 19,
+      "intensity_index": 0.841,
+      "max_dbz": null,
+      "id": "CELL-79",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.83514,
+      "lon": 17.05078,
+      "area_px": 18,
+      "intensity_index": 0.755,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-48",
+      "track": {
+        "observations": [
+          {
+            "lat": 46.83188,
+            "lon": 16.98384,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 46.83514,
+            "lon": 17.05078,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 30.63,
+        "direction_deg": 85.9,
+        "distance_km": 5.11,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-80"
+    },
+    {
+      "lat": 46.73233,
+      "lon": 9.33838,
+      "area_px": 18,
+      "intensity_index": 0.836,
+      "max_dbz": null,
+      "id": "CELL-81",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.36575,
+      "lon": 17.46826,
+      "area_px": 18,
+      "intensity_index": 0.761,
+      "max_dbz": null,
+      "id": "CELL-82",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.01846,
+      "lon": 17.92064,
+      "area_px": 17,
+      "intensity_index": 0.697,
+      "max_dbz": null,
+      "id": "CELL-83",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.67073,
+      "lon": 17.79914,
+      "area_px": 17,
+      "intensity_index": 0.672,
+      "max_dbz": null,
+      "id": "CELL-84",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 46.24673,
+      "lon": 18.79541,
+      "area_px": 15,
+      "intensity_index": 0.85,
+      "max_dbz": null,
+      "id": "CELL-85",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 45.44472,
+      "lon": 14.87549,
+      "area_px": 15,
+      "intensity_index": 0.749,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-81",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.4293,
+            "lon": 14.82056,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.44472,
+            "lon": 14.87549,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 27.7,
+        "direction_deg": 68.2,
+        "distance_km": 4.62,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-86"
+    },
+    {
+      "lat": 45.19752,
+      "lon": 19.90723,
+      "area_px": 15,
+      "intensity_index": 0.784,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-75",
+      "track": {
+        "observations": [
+          {
+            "lat": 45.19752,
+            "lon": 19.90723,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 45.19752,
+            "lon": 19.90723,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 0.0,
+        "direction_deg": 0.0,
+        "distance_km": 0.0,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-87"
+    },
+    {
+      "lat": 44.26723,
+      "lon": 9.98877,
+      "area_px": 15,
+      "intensity_index": 0.888,
+      "max_dbz": null,
+      "id": "CELL-88",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 43.21318,
+      "lon": 15.07324,
+      "area_px": 15,
+      "intensity_index": 0.704,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-55",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.22793,
+            "lon": 15.01484,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.21318,
+            "lon": 15.07324,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 30.05,
+        "direction_deg": 109.1,
+        "distance_km": 5.01,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-89"
+    },
+    {
+      "lat": 42.30982,
+      "lon": 12.39258,
+      "area_px": 15,
+      "intensity_index": 0.909,
+      "max_dbz": null,
+      "id": "CELL-90",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 48.04137,
+      "lon": 7.4707,
+      "area_px": 12,
+      "intensity_index": 0.85,
+      "max_dbz": null,
+      "id": "CELL-91",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 45.18978,
+      "lon": 16.67725,
+      "area_px": 12,
+      "intensity_index": 0.761,
+      "max_dbz": null,
+      "id": "CELL-92",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    },
+    {
+      "lat": 44.95702,
+      "lon": 16.72119,
+      "area_px": 12,
+      "intensity_index": 0.663,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-82",
+      "track": {
+        "observations": [
+          {
+            "lat": 44.95702,
+            "lon": 16.72119,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 44.95702,
+            "lon": 16.72119,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 0.0,
+        "direction_deg": 0.0,
+        "distance_km": 0.0,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-93"
+    },
+    {
+      "lat": 43.977,
+      "lon": 11.59058,
+      "area_px": 12,
+      "intensity_index": 0.868,
+      "max_dbz": null,
+      "track_id": "ARGO-1794981600-58",
+      "track": {
+        "observations": [
+          {
+            "lat": 43.96311,
+            "lon": 11.56095,
+            "timestamp": "2026-11-18T06:00:00Z"
+          },
+          {
+            "lat": 43.977,
+            "lon": 11.59058,
+            "timestamp": "2026-11-18T06:10:00Z"
+          }
+        ]
+      },
+      "vectors": {},
+      "motion": {
+        "speed_kmh": 16.98,
+        "direction_deg": 56.9,
+        "distance_km": 2.83,
+        "interval_min": 10.0,
+        "type": "observed"
+      },
+      "id": "CELL-94"
+    },
+    {
+      "lat": 43.73935,
+      "lon": 17.65503,
+      "area_px": 12,
+      "intensity_index": 0.741,
+      "max_dbz": null,
+      "id": "CELL-95",
+      "track_id": null,
+      "track": {
+        "observations": []
+      },
+      "vectors": {},
+      "motion": null
+    }
+  ]
+}
