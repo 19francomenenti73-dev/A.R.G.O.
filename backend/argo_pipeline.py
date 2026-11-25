@@ -257,6 +257,9 @@ def associate(old, new, dt):
         if cost[i, j] >= 1e8:
             continue
 
+        # Require mutual best matches; reject ambiguous assignments.
+        if cost[i, j] > min(cost[i]) or cost[i, j] > min(cost[:, j]):
+            continue
         row = sorted(v for v in cost[i] if v < 1e8)
         col = sorted(v for v in cost[:, j] if v < 1e8)
 
@@ -328,11 +331,11 @@ def main():
             )
             if (
                 current.get("schema_version") == 5
-                and current.get("timestamp") == t1
+                and epoch(current["timestamp"]) >= epoch(t1)
             ):
                 print("ARGO: scansione già elaborata")
                 return
-        except (OSError, ValueError):
+        except (OSError, ValueError, KeyError, TypeError):
             pass
 
     old_image, x0, y0 = mosaic(host, older)
@@ -421,8 +424,8 @@ def main():
             if angle_difference(
                 previous_bearing, new_bearing
             ) > MAX_TURN:
-                key = None
                 rejected_turns += 1
+                continue
 
         if key is None:
             key = allocate()
@@ -438,6 +441,12 @@ def main():
         if observations[-1]["timestamp"] != t0:
             continue
 
+        # Compute motion from the exact points exported in history.
+        a = observations[-1]
+        distance = km(a, b)
+        speed = distance * 60 / dt
+        if distance < MIN_VECTOR_KM or speed > MAX_SPEED:
+            continue
         observations.append({
             "lat": b["lat"],
             "lon": b["lon"],
