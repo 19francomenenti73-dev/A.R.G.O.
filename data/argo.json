@@ -1,7 +1,7 @@
 {
   "schema_version": 5,
-  "timestamp": "2026-11-27T09:30:00Z",
-  "generated_at": "2026-11-27T09:30:55.717321+00:00",
+  "timestamp": "2026-11-27T10:00:00Z",
+  "generated_at": "2026-11-27T10:00:49.367099+00:00",
   "source": {
     "provider": "RainViewer",
     "attribution": "Weather data by RainViewer",
@@ -10,941 +10,919 @@
   },
   "radar_tiles": {
     "host": "https://tilecache.rainviewer.com",
-    "path": "/v2/radar/531c6ca2027f",
+    "path": "/v2/radar/4764b852d9ef",
     "zoom_max": 7,
     "color": 2,
     "options": "0_0"
   },
-  "cell_count": 61,
+  "cell_count": 59,
   "observed_vectors": 43,
   "cells": [
     {
-      "lat": 45.52724,
-      "lon": 16.79472,
-      "area_px": 13683,
-      "intensity_index": 0.785,
+      "lat": 45.90368,
+      "lon": 17.30364,
+      "area_px": 11374,
+      "intensity_index": 0.801,
       "max_dbz": null,
-      "id": "ARGO-004950",
-      "track_id": "ARGO-004950",
+      "id": "ARGO-005011",
+      "track_id": "ARGO-005011",
       "motion": {
         "type": "observed",
-        "speed_kmh": 15.76,
-        "direction_deg": 50.6,
-        "distance_km": 2.63,
+        "speed_kmh": 19.44,
+        "direction_deg": 81.4,
+        "distance_km": 3.24,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 40.7165,
-      "lon": 17.53119,
-      "area_px": 1248,
-      "intensity_index": 0.784,
+      "lat": 43.91108,
+      "lon": 15.13112,
+      "area_px": 2603,
+      "intensity_index": 0.764,
       "max_dbz": null,
-      "id": "ARGO-004951",
-      "track_id": "ARGO-004951",
+      "id": "ARGO-005012",
+      "track_id": "ARGO-005012",
       "motion": {
         "type": "observed",
-        "speed_kmh": 36.25,
-        "direction_deg": 67.5,
-        "distance_km": 6.04,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.64572,
-      "lon": 19.11064,
-      "area_px": 756,
-      "intensity_index": 0.792,
-      "max_dbz": null,
-      "id": "ARGO-004993",
-      "track_id": "ARGO-004993",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 41.96127,
-      "lon": 19.69978,
-      "area_px": 663,
-      "intensity_index": 0.799,
-      "max_dbz": null,
-      "id": "ARGO-004952",
-      "track_id": "ARGO-004952",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 14.39,
-        "direction_deg": 122.2,
-        "distance_km": 2.4,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 38.25788,
-      "lon": 15.56145,
-      "area_px": 663,
-      "intensity_index": 0.82,
-      "max_dbz": null,
-      "id": "ARGO-004953",
-      "track_id": "ARGO-004953",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 49.94,
-        "direction_deg": 72.2,
-        "distance_km": 8.32,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.9955,
-      "lon": 18.61892,
-      "area_px": 656,
-      "intensity_index": 0.739,
-      "max_dbz": null,
-      "id": "ARGO-004994",
-      "track_id": "ARGO-004994",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 44.99401,
-      "lon": 14.93559,
-      "area_px": 468,
-      "intensity_index": 0.793,
-      "max_dbz": null,
-      "id": "ARGO-004954",
-      "track_id": "ARGO-004954",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 12.07,
-        "direction_deg": 243.5,
-        "distance_km": 2.01,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 45.52182,
-      "lon": 13.93205,
-      "area_px": 342,
-      "intensity_index": 0.742,
-      "max_dbz": null,
-      "id": "ARGO-004955",
-      "track_id": "ARGO-004955",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 38.34,
-        "direction_deg": 81.3,
-        "distance_km": 6.39,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.96191,
-      "lon": 18.66261,
-      "area_px": 227,
-      "intensity_index": 0.744,
-      "max_dbz": null,
-      "id": "ARGO-004956",
-      "track_id": "ARGO-004956",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 35.81,
-        "direction_deg": 54.0,
-        "distance_km": 5.97,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 43.29505,
-      "lon": 13.06399,
-      "area_px": 181,
-      "intensity_index": 0.696,
-      "max_dbz": null,
-      "id": "ARGO-004967",
-      "track_id": "ARGO-004967",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 93.09,
-        "direction_deg": 66.9,
-        "distance_km": 15.52,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.99077,
-      "lon": 10.34553,
-      "area_px": 181,
-      "intensity_index": 0.75,
-      "max_dbz": null,
-      "id": "ARGO-004957",
-      "track_id": "ARGO-004957",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 6.85,
-        "direction_deg": 276.2,
-        "distance_km": 1.14,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 45.26115,
-      "lon": 13.33511,
-      "area_px": 163,
-      "intensity_index": 0.768,
-      "max_dbz": null,
-      "id": "ARGO-004959",
-      "track_id": "ARGO-004959",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 22.14,
-        "direction_deg": 89.6,
-        "distance_km": 3.69,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 47.24486,
-      "lon": 16.48736,
-      "area_px": 161,
-      "intensity_index": 0.76,
-      "max_dbz": null,
-      "id": "ARGO-004995",
-      "track_id": "ARGO-004995",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 44.29651,
-      "lon": 17.32661,
-      "area_px": 132,
-      "intensity_index": 0.834,
-      "max_dbz": null,
-      "id": "ARGO-004960",
-      "track_id": "ARGO-004960",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 21.64,
-        "direction_deg": 56.8,
-        "distance_km": 3.61,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.47382,
-      "lon": 13.3713,
-      "area_px": 130,
-      "intensity_index": 0.851,
-      "max_dbz": null,
-      "id": "ARGO-004996",
-      "track_id": "ARGO-004996",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 44.74332,
-      "lon": 13.31683,
-      "area_px": 125,
-      "intensity_index": 0.768,
-      "max_dbz": null,
-      "id": "ARGO-004958",
-      "track_id": "ARGO-004958",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 23.15,
-        "direction_deg": 215.1,
-        "distance_km": 3.86,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.52437,
-      "lon": 9.57889,
-      "area_px": 122,
-      "intensity_index": 0.71,
-      "max_dbz": null,
-      "id": "ARGO-004997",
-      "track_id": "ARGO-004997",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 41.00969,
-      "lon": 8.77672,
-      "area_px": 118,
-      "intensity_index": 0.77,
-      "max_dbz": null,
-      "id": "ARGO-004964",
-      "track_id": "ARGO-004964",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 37.07,
-        "direction_deg": 109.0,
-        "distance_km": 6.18,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 37.73767,
-      "lon": 14.47785,
-      "area_px": 108,
-      "intensity_index": 0.771,
-      "max_dbz": null,
-      "id": "ARGO-004965",
-      "track_id": "ARGO-004965",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 74.59,
-        "direction_deg": 46.2,
-        "distance_km": 12.43,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.23828,
-      "lon": 18.16561,
-      "area_px": 101,
-      "intensity_index": 0.818,
-      "max_dbz": null,
-      "id": "ARGO-004963",
-      "track_id": "ARGO-004963",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 9.75,
-        "direction_deg": 141.3,
-        "distance_km": 1.62,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 47.48487,
-      "lon": 17.5343,
-      "area_px": 93,
-      "intensity_index": 0.812,
-      "max_dbz": null,
-      "id": "ARGO-004971",
-      "track_id": "ARGO-004971",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 8.54,
-        "direction_deg": 68.3,
-        "distance_km": 1.42,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 40.27689,
-      "lon": 15.44833,
-      "area_px": 88,
-      "intensity_index": 0.848,
-      "max_dbz": null,
-      "id": "ARGO-004962",
-      "track_id": "ARGO-004962",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 36.28,
-        "direction_deg": 99.0,
-        "distance_km": 6.05,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.17348,
-      "lon": 19.25925,
-      "area_px": 87,
-      "intensity_index": 0.796,
-      "max_dbz": null,
-      "id": "ARGO-004969",
-      "track_id": "ARGO-004969",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 37.98,
-        "direction_deg": 48.3,
-        "distance_km": 6.33,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 43.21865,
-      "lon": 18.09132,
-      "area_px": 85,
-      "intensity_index": 0.78,
-      "max_dbz": null,
-      "id": "ARGO-004976",
-      "track_id": "ARGO-004976",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 11.66,
-        "direction_deg": 20.6,
-        "distance_km": 1.94,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 43.85138,
-      "lon": 19.51753,
-      "area_px": 81,
-      "intensity_index": 0.834,
-      "max_dbz": null,
-      "id": "ARGO-004989",
-      "track_id": "ARGO-004989",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 33.91,
-        "direction_deg": 7.8,
-        "distance_km": 5.65,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.02022,
-      "lon": 18.50897,
-      "area_px": 80,
-      "intensity_index": 0.807,
-      "max_dbz": null,
-      "id": "ARGO-004985",
-      "track_id": "ARGO-004985",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 40.32,
-        "direction_deg": 47.2,
-        "distance_km": 6.72,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 39.78077,
-      "lon": 8.01644,
-      "area_px": 80,
-      "intensity_index": 0.751,
-      "max_dbz": null,
-      "id": "ARGO-004966",
-      "track_id": "ARGO-004966",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 39.15,
-        "direction_deg": 88.1,
-        "distance_km": 6.52,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.32559,
-      "lon": 17.68195,
-      "area_px": 72,
-      "intensity_index": 0.855,
-      "max_dbz": null,
-      "id": "ARGO-004974",
-      "track_id": "ARGO-004974",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 32.42,
-        "direction_deg": 41.9,
-        "distance_km": 5.4,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 43.79598,
-      "lon": 17.77594,
-      "area_px": 65,
-      "intensity_index": 0.816,
-      "max_dbz": null,
-      "id": "ARGO-004968",
-      "track_id": "ARGO-004968",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 6.87,
-        "direction_deg": 357.0,
-        "distance_km": 1.14,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 46.97842,
-      "lon": 16.93906,
-      "area_px": 63,
-      "intensity_index": 0.683,
-      "max_dbz": null,
-      "id": "ARGO-004988",
-      "track_id": "ARGO-004988",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 37.56,
-        "direction_deg": 24.5,
-        "distance_km": 6.26,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 39.59091,
-      "lon": 17.45985,
-      "area_px": 57,
-      "intensity_index": 0.839,
-      "max_dbz": null,
-      "id": "ARGO-004961",
-      "track_id": "ARGO-004961",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 37.21,
-        "direction_deg": 45.6,
-        "distance_km": 6.2,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 45.82045,
-      "lon": 13.7784,
-      "area_px": 56,
-      "intensity_index": 0.866,
-      "max_dbz": null,
-      "id": "ARGO-004973",
-      "track_id": "ARGO-004973",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 10.29,
-        "direction_deg": 75.8,
-        "distance_km": 1.72,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 46.70494,
-      "lon": 18.47985,
-      "area_px": 55,
-      "intensity_index": 0.81,
-      "max_dbz": null,
-      "id": "ARGO-004972",
-      "track_id": "ARGO-004972",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 24.32,
-        "direction_deg": 48.2,
-        "distance_km": 4.05,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.53471,
-      "lon": 18.20898,
-      "area_px": 52,
-      "intensity_index": 0.723,
-      "max_dbz": null,
-      "id": "ARGO-004983",
-      "track_id": "ARGO-004983",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 26.08,
-        "direction_deg": 59.2,
-        "distance_km": 4.35,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.20482,
-      "lon": 10.58472,
-      "area_px": 52,
-      "intensity_index": 0.74,
-      "max_dbz": null,
-      "id": "ARGO-004980",
-      "track_id": "ARGO-004980",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 12.27,
-        "direction_deg": 187.1,
-        "distance_km": 2.04,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 41.78832,
-      "lon": 8.81315,
-      "area_px": 52,
-      "intensity_index": 0.793,
-      "max_dbz": null,
-      "id": "ARGO-004990",
-      "track_id": "ARGO-004990",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 11.51,
-        "direction_deg": 74.7,
-        "distance_km": 1.92,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 40.57741,
-      "lon": 16.55235,
-      "area_px": 52,
-      "intensity_index": 0.814,
-      "max_dbz": null,
-      "id": "ARGO-004982",
-      "track_id": "ARGO-004982",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 30.3,
-        "direction_deg": 59.6,
-        "distance_km": 5.05,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 40.06486,
-      "lon": 8.47899,
-      "area_px": 47,
-      "intensity_index": 0.65,
-      "max_dbz": null,
-      "id": "ARGO-004998",
-      "track_id": "ARGO-004998",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 46.92652,
-      "lon": 19.94407,
-      "area_px": 43,
-      "intensity_index": 0.836,
-      "max_dbz": null,
-      "id": "ARGO-004977",
-      "track_id": "ARGO-004977",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 34.85,
-        "direction_deg": 79.4,
-        "distance_km": 5.81,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 44.07272,
-      "lon": 17.03014,
-      "area_px": 43,
-      "intensity_index": 0.833,
-      "max_dbz": null,
-      "id": "ARGO-004999",
-      "track_id": "ARGO-004999",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 42.16536,
-      "lon": 12.52799,
-      "area_px": 43,
-      "intensity_index": 0.71,
-      "max_dbz": null,
-      "id": "ARGO-004981",
-      "track_id": "ARGO-004981",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 24.21,
-        "direction_deg": 38.6,
+        "speed_kmh": 24.15,
+        "direction_deg": 26.9,
         "distance_km": 4.03,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 44.37325,
-      "lon": 18.84266,
-      "area_px": 42,
-      "intensity_index": 0.824,
+      "lat": 42.96436,
+      "lon": 18.57711,
+      "area_px": 684,
+      "intensity_index": 0.747,
       "max_dbz": null,
-      "id": "ARGO-004987",
-      "track_id": "ARGO-004987",
+      "id": "ARGO-005014",
+      "track_id": "ARGO-005014",
       "motion": {
         "type": "observed",
-        "speed_kmh": 22.94,
-        "direction_deg": 58.9,
-        "distance_km": 3.82,
+        "speed_kmh": 64.47,
+        "direction_deg": 247.3,
+        "distance_km": 10.74,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 42.89474,
-      "lon": 18.26561,
-      "area_px": 42,
-      "intensity_index": 0.709,
+      "lat": 42.61629,
+      "lon": 18.92831,
+      "area_px": 428,
+      "intensity_index": 0.756,
       "max_dbz": null,
-      "id": "ARGO-005000",
-      "track_id": "ARGO-005000",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 42.34845,
-      "lon": 18.90204,
-      "area_px": 42,
-      "intensity_index": 0.748,
-      "max_dbz": null,
-      "id": "ARGO-005001",
-      "track_id": "ARGO-005001",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 39.86315,
-      "lon": 15.96208,
-      "area_px": 41,
-      "intensity_index": 0.861,
-      "max_dbz": null,
-      "id": "ARGO-004978",
-      "track_id": "ARGO-004978",
+      "id": "ARGO-005018",
+      "track_id": "ARGO-005018",
       "motion": {
         "type": "observed",
-        "speed_kmh": 12.21,
-        "direction_deg": 37.3,
-        "distance_km": 2.04,
+        "speed_kmh": 67.18,
+        "direction_deg": 254.3,
+        "distance_km": 11.2,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 43.29597,
-      "lon": 13.49127,
-      "area_px": 39,
-      "intensity_index": 0.798,
-      "max_dbz": null,
-      "id": "ARGO-005002",
-      "track_id": "ARGO-005002",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 38.64392,
-      "lon": 15.99529,
-      "area_px": 39,
-      "intensity_index": 0.874,
-      "max_dbz": null,
-      "id": "ARGO-004991",
-      "track_id": "ARGO-004991",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 80.1,
-        "direction_deg": 52.6,
-        "distance_km": 13.35,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 42.63508,
-      "lon": 13.23766,
-      "area_px": 38,
-      "intensity_index": 0.809,
-      "max_dbz": null,
-      "id": "ARGO-005003",
-      "track_id": "ARGO-005003",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 43.73691,
-      "lon": 17.45619,
-      "area_px": 37,
+      "lat": 38.37024,
+      "lon": 15.91537,
+      "area_px": 426,
       "intensity_index": 0.777,
       "max_dbz": null,
-      "id": "ARGO-005004",
-      "track_id": "ARGO-005004",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 39.14222,
-      "lon": 7.59281,
-      "area_px": 37,
-      "intensity_index": 0.873,
-      "max_dbz": null,
-      "id": "ARGO-004979",
-      "track_id": "ARGO-004979",
+      "id": "ARGO-005013",
+      "track_id": "ARGO-005013",
       "motion": {
         "type": "observed",
-        "speed_kmh": 34.03,
-        "direction_deg": 138.1,
-        "distance_km": 5.67,
+        "speed_kmh": 59.42,
+        "direction_deg": 71.3,
+        "distance_km": 9.9,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 36.18979,
-      "lon": 16.39732,
-      "area_px": 32,
-      "intensity_index": 0.612,
+      "lat": 45.0636,
+      "lon": 15.1188,
+      "area_px": 414,
+      "intensity_index": 0.786,
       "max_dbz": null,
-      "id": "ARGO-004986",
-      "track_id": "ARGO-004986",
+      "id": "ARGO-005015",
+      "track_id": "ARGO-005015",
       "motion": {
         "type": "observed",
-        "speed_kmh": 50.54,
-        "direction_deg": 42.8,
-        "distance_km": 8.42,
+        "speed_kmh": 42.96,
+        "direction_deg": 41.6,
+        "distance_km": 7.16,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 39.96558,
-      "lon": 8.62179,
-      "area_px": 31,
-      "intensity_index": 0.757,
-      "max_dbz": null,
-      "id": "ARGO-004984",
-      "track_id": "ARGO-004984",
-      "motion": {
-        "type": "observed",
-        "speed_kmh": 28.79,
-        "direction_deg": 104.1,
-        "distance_km": 4.8,
-        "interval_min": 10.0
-      },
-      "vectors": {}
-    },
-    {
-      "lat": 45.18142,
-      "lon": 15.44851,
-      "area_px": 30,
-      "intensity_index": 0.799,
-      "max_dbz": null,
-      "id": "ARGO-005005",
-      "track_id": "ARGO-005005",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 44.4549,
-      "lon": 13.76861,
-      "area_px": 30,
+      "lat": 41.94543,
+      "lon": 19.75774,
+      "area_px": 331,
       "intensity_index": 0.8,
       "max_dbz": null,
-      "id": "ARGO-004970",
-      "track_id": "ARGO-004970",
+      "id": "ARGO-005016",
+      "track_id": "ARGO-005016",
       "motion": {
         "type": "observed",
-        "speed_kmh": 8.5,
-        "direction_deg": 245.2,
-        "distance_km": 1.42,
+        "speed_kmh": 7.3,
+        "direction_deg": 349.9,
+        "distance_km": 1.22,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 41.15279,
-      "lon": 8.12065,
-      "area_px": 30,
-      "intensity_index": 0.809,
+      "lat": 43.3195,
+      "lon": 13.26502,
+      "area_px": 313,
+      "intensity_index": 0.661,
       "max_dbz": null,
-      "id": "ARGO-005006",
-      "track_id": "ARGO-005006",
+      "id": "ARGO-005020",
+      "track_id": "ARGO-005020",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 15.31,
+        "direction_deg": 290.5,
+        "distance_km": 2.55,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 45.0516,
+      "lon": 18.85499,
+      "area_px": 305,
+      "intensity_index": 0.751,
+      "max_dbz": null,
+      "id": "ARGO-005022",
+      "track_id": "ARGO-005022",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 22.1,
+        "direction_deg": 46.1,
+        "distance_km": 3.68,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 47.4803,
+      "lon": 17.62599,
+      "area_px": 273,
+      "intensity_index": 0.815,
+      "max_dbz": null,
+      "id": "ARGO-005024",
+      "track_id": "ARGO-005024",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 13.38,
+        "direction_deg": 100.9,
+        "distance_km": 2.23,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 44.58955,
+      "lon": 13.33561,
+      "area_px": 260,
+      "intensity_index": 0.817,
+      "max_dbz": null,
+      "id": "ARGO-005054",
+      "track_id": "ARGO-005054",
       "motion": null,
       "vectors": {}
     },
     {
-      "lat": 38.76297,
-      "lon": 16.22896,
-      "area_px": 30,
-      "intensity_index": 0.882,
+      "lat": 47.5598,
+      "lon": 18.80142,
+      "area_px": 257,
+      "intensity_index": 0.771,
       "max_dbz": null,
-      "id": "ARGO-005007",
-      "track_id": "ARGO-005007",
+      "id": "ARGO-005019",
+      "track_id": "ARGO-005019",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 13.64,
+        "direction_deg": 48.4,
+        "distance_km": 2.27,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 43.90178,
+      "lon": 19.75208,
+      "area_px": 242,
+      "intensity_index": 0.81,
+      "max_dbz": null,
+      "id": "ARGO-005028",
+      "track_id": "ARGO-005028",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 53.54,
+        "direction_deg": 72.4,
+        "distance_km": 8.92,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 45.26904,
+      "lon": 13.3537,
+      "area_px": 241,
+      "intensity_index": 0.707,
+      "max_dbz": null,
+      "id": "ARGO-005055",
+      "track_id": "ARGO-005055",
       "motion": null,
       "vectors": {}
     },
     {
-      "lat": 42.43859,
-      "lon": 12.93933,
-      "area_px": 29,
+      "lat": 43.21822,
+      "lon": 18.16337,
+      "area_px": 231,
+      "intensity_index": 0.765,
+      "max_dbz": null,
+      "id": "ARGO-005034",
+      "track_id": "ARGO-005034",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 58.74,
+        "direction_deg": 181.9,
+        "distance_km": 9.79,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 40.86533,
+      "lon": 16.83252,
+      "area_px": 224,
+      "intensity_index": 0.794,
+      "max_dbz": null,
+      "id": "ARGO-005021",
+      "track_id": "ARGO-005021",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 63.0,
+        "direction_deg": 50.2,
+        "distance_km": 10.5,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 45.49978,
+      "lon": 13.7152,
+      "area_px": 217,
+      "intensity_index": 0.726,
+      "max_dbz": null,
+      "id": "ARGO-005017",
+      "track_id": "ARGO-005017",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 110.04,
+        "direction_deg": 250.7,
+        "distance_km": 18.34,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.95062,
+      "lon": 10.33502,
+      "area_px": 215,
+      "intensity_index": 0.752,
+      "max_dbz": null,
+      "id": "ARGO-005023",
+      "track_id": "ARGO-005023",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 7.66,
+        "direction_deg": 199.7,
+        "distance_km": 1.28,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 44.12146,
+      "lon": 18.66614,
+      "area_px": 186,
+      "intensity_index": 0.741,
+      "max_dbz": null,
+      "id": "ARGO-005026",
+      "track_id": "ARGO-005026",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 8.59,
+        "direction_deg": 31.8,
+        "distance_km": 1.43,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.50352,
+      "lon": 9.58228,
+      "area_px": 146,
+      "intensity_index": 0.746,
+      "max_dbz": null,
+      "id": "ARGO-005029",
+      "track_id": "ARGO-005029",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 3.9,
+        "direction_deg": 24.2,
+        "distance_km": 0.65,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 40.96843,
+      "lon": 17.52944,
+      "area_px": 145,
+      "intensity_index": 0.788,
+      "max_dbz": null,
+      "id": "ARGO-005056",
+      "track_id": "ARGO-005056",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 44.3653,
+      "lon": 17.44267,
+      "area_px": 144,
+      "intensity_index": 0.829,
+      "max_dbz": null,
+      "id": "ARGO-005027",
+      "track_id": "ARGO-005027",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 7.57,
+        "direction_deg": 58.6,
+        "distance_km": 1.26,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 37.8713,
+      "lon": 14.58134,
+      "area_px": 142,
+      "intensity_index": 0.792,
+      "max_dbz": null,
+      "id": "ARGO-005025",
+      "track_id": "ARGO-005025",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 40.21,
+        "direction_deg": 47.6,
+        "distance_km": 6.7,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 39.73181,
+      "lon": 8.08406,
+      "area_px": 129,
+      "intensity_index": 0.731,
+      "max_dbz": null,
+      "id": "ARGO-005030",
+      "track_id": "ARGO-005030",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 21.75,
+        "direction_deg": 151.8,
+        "distance_km": 3.63,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 47.82869,
+      "lon": 16.88876,
+      "area_px": 113,
+      "intensity_index": 0.713,
+      "max_dbz": null,
+      "id": "ARGO-005035",
+      "track_id": "ARGO-005035",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 18.06,
+        "direction_deg": 347.7,
+        "distance_km": 3.01,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 47.60422,
+      "lon": 16.86319,
+      "area_px": 111,
+      "intensity_index": 0.698,
+      "max_dbz": null,
+      "id": "ARGO-005057",
+      "track_id": "ARGO-005057",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 44.15252,
+      "lon": 17.05933,
+      "area_px": 107,
+      "intensity_index": 0.787,
+      "max_dbz": null,
+      "id": "ARGO-005038",
+      "track_id": "ARGO-005038",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 18.06,
+        "direction_deg": 35.4,
+        "distance_km": 3.01,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 43.33129,
+      "lon": 18.55127,
+      "area_px": 90,
+      "intensity_index": 0.814,
+      "max_dbz": null,
+      "id": "ARGO-005033",
+      "track_id": "ARGO-005033",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 13.96,
+        "direction_deg": 33.5,
+        "distance_km": 2.33,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 41.77779,
+      "lon": 8.89659,
+      "area_px": 89,
+      "intensity_index": 0.777,
+      "max_dbz": null,
+      "id": "ARGO-005032",
+      "track_id": "ARGO-005032",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 17.09,
+        "direction_deg": 46.5,
+        "distance_km": 2.85,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.37102,
+      "lon": 18.96161,
+      "area_px": 88,
+      "intensity_index": 0.802,
+      "max_dbz": null,
+      "id": "ARGO-005058",
+      "track_id": "ARGO-005058",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 42.9299,
+      "lon": 19.0993,
+      "area_px": 85,
+      "intensity_index": 0.838,
+      "max_dbz": null,
+      "id": "ARGO-005031",
+      "track_id": "ARGO-005031",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 5.67,
+        "direction_deg": 192.4,
+        "distance_km": 0.94,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 40.95237,
+      "lon": 8.98094,
+      "area_px": 83,
+      "intensity_index": 0.68,
+      "max_dbz": null,
+      "id": "ARGO-005036",
+      "track_id": "ARGO-005036",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 40.44,
+        "direction_deg": 87.3,
+        "distance_km": 6.74,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 44.41696,
+      "lon": 17.82749,
+      "area_px": 82,
+      "intensity_index": 0.795,
+      "max_dbz": null,
+      "id": "ARGO-005039",
+      "track_id": "ARGO-005039",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 12.93,
+        "direction_deg": 42.3,
+        "distance_km": 2.16,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 45.66195,
+      "lon": 14.31478,
+      "area_px": 76,
+      "intensity_index": 0.856,
+      "max_dbz": null,
+      "id": "ARGO-005059",
+      "track_id": "ARGO-005059",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 44.5981,
+      "lon": 18.43323,
+      "area_px": 73,
+      "intensity_index": 0.757,
+      "max_dbz": null,
+      "id": "ARGO-005037",
+      "track_id": "ARGO-005037",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 9.38,
+        "direction_deg": 77.0,
+        "distance_km": 1.56,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 43.84255,
+      "lon": 17.2674,
+      "area_px": 72,
+      "intensity_index": 0.729,
+      "max_dbz": null,
+      "id": "ARGO-005041",
+      "track_id": "ARGO-005041",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 14.95,
+        "direction_deg": 48.3,
+        "distance_km": 2.49,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 44.25402,
+      "lon": 19.44991,
+      "area_px": 66,
+      "intensity_index": 0.851,
+      "max_dbz": null,
+      "id": "ARGO-005042",
+      "track_id": "ARGO-005042",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 47.01,
+        "direction_deg": 48.9,
+        "distance_km": 7.83,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 38.97332,
+      "lon": 16.56307,
+      "area_px": 59,
+      "intensity_index": 0.849,
+      "max_dbz": null,
+      "id": "ARGO-005045",
+      "track_id": "ARGO-005045",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 71.07,
+        "direction_deg": 59.9,
+        "distance_km": 11.84,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 44.87865,
+      "lon": 14.56831,
+      "area_px": 58,
+      "intensity_index": 0.79,
+      "max_dbz": null,
+      "id": "ARGO-005060",
+      "track_id": "ARGO-005060",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 42.26864,
+      "lon": 18.18594,
+      "area_px": 57,
       "intensity_index": 0.796,
       "max_dbz": null,
-      "id": "ARGO-004992",
-      "track_id": "ARGO-004992",
+      "id": "ARGO-005043",
+      "track_id": "ARGO-005043",
       "motion": {
         "type": "observed",
-        "speed_kmh": 26.06,
-        "direction_deg": 42.8,
-        "distance_km": 4.34,
+        "speed_kmh": 14.54,
+        "direction_deg": 277.0,
+        "distance_km": 2.42,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 42.39778,
-      "lon": 13.14929,
-      "area_px": 29,
-      "intensity_index": 0.882,
+      "lat": 45.82144,
+      "lon": 13.77924,
+      "area_px": 51,
+      "intensity_index": 0.899,
       "max_dbz": null,
-      "id": "ARGO-005008",
-      "track_id": "ARGO-005008",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 41.58073,
-      "lon": 19.13959,
-      "area_px": 29,
-      "intensity_index": 0.761,
-      "max_dbz": null,
-      "id": "ARGO-005009",
-      "track_id": "ARGO-005009",
-      "motion": null,
-      "vectors": {}
-    },
-    {
-      "lat": 43.45292,
-      "lon": 18.27961,
-      "area_px": 26,
-      "intensity_index": 0.862,
-      "max_dbz": null,
-      "id": "ARGO-004975",
-      "track_id": "ARGO-004975",
+      "id": "ARGO-005044",
+      "track_id": "ARGO-005044",
       "motion": {
         "type": "observed",
-        "speed_kmh": 38.0,
-        "direction_deg": 349.2,
-        "distance_km": 6.33,
+        "speed_kmh": 5.99,
+        "direction_deg": 106.8,
+        "distance_km": 1.0,
         "interval_min": 10.0
       },
       "vectors": {}
     },
     {
-      "lat": 42.32951,
-      "lon": 9.73925,
-      "area_px": 26,
-      "intensity_index": 0.722,
+      "lat": 42.16597,
+      "lon": 10.58917,
+      "area_px": 51,
+      "intensity_index": 0.778,
       "max_dbz": null,
-      "id": "ARGO-005010",
-      "track_id": "ARGO-005010",
+      "id": "ARGO-005040",
+      "track_id": "ARGO-005040",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 9.05,
+        "direction_deg": 175.4,
+        "distance_km": 1.51,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 40.68555,
+      "lon": 17.66996,
+      "area_px": 50,
+      "intensity_index": 0.818,
+      "max_dbz": null,
+      "id": "ARGO-005061",
+      "track_id": "ARGO-005061",
       "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 43.54716,
+      "lon": 18.38699,
+      "area_px": 47,
+      "intensity_index": 0.832,
+      "max_dbz": null,
+      "id": "ARGO-005051",
+      "track_id": "ARGO-005051",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 13.92,
+        "direction_deg": 47.9,
+        "distance_km": 2.32,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 41.1707,
+      "lon": 8.31437,
+      "area_px": 45,
+      "intensity_index": 0.844,
+      "max_dbz": null,
+      "id": "ARGO-005049",
+      "track_id": "ARGO-005049",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 45.15,
+        "direction_deg": 80.1,
+        "distance_km": 7.53,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.62646,
+      "lon": 12.19671,
+      "area_px": 44,
+      "intensity_index": 0.732,
+      "max_dbz": null,
+      "id": "ARGO-005062",
+      "track_id": "ARGO-005062",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 42.23409,
+      "lon": 12.61898,
+      "area_px": 44,
+      "intensity_index": 0.703,
+      "max_dbz": null,
+      "id": "ARGO-005048",
+      "track_id": "ARGO-005048",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 20.04,
+        "direction_deg": 57.0,
+        "distance_km": 3.34,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.35552,
+      "lon": 11.70628,
+      "area_px": 39,
+      "intensity_index": 0.757,
+      "max_dbz": null,
+      "id": "ARGO-005063",
+      "track_id": "ARGO-005063",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 41.19797,
+      "lon": 17.38945,
+      "area_px": 36,
+      "intensity_index": 0.798,
+      "max_dbz": null,
+      "id": "ARGO-005053",
+      "track_id": "ARGO-005053",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 40.55,
+        "direction_deg": 58.8,
+        "distance_km": 6.76,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 43.66085,
+      "lon": 17.00719,
+      "area_px": 34,
+      "intensity_index": 0.792,
+      "max_dbz": null,
+      "id": "ARGO-005064",
+      "track_id": "ARGO-005064",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 40.24008,
+      "lon": 15.57426,
+      "area_px": 34,
+      "intensity_index": 0.892,
+      "max_dbz": null,
+      "id": "ARGO-005047",
+      "track_id": "ARGO-005047",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 18.31,
+        "direction_deg": 71.7,
+        "distance_km": 3.05,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 40.00667,
+      "lon": 16.1455,
+      "area_px": 34,
+      "intensity_index": 0.884,
+      "max_dbz": null,
+      "id": "ARGO-005046",
+      "track_id": "ARGO-005046",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 29.71,
+        "direction_deg": 41.4,
+        "distance_km": 4.95,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 43.76428,
+      "lon": 18.66588,
+      "area_px": 31,
+      "intensity_index": 0.783,
+      "max_dbz": null,
+      "id": "ARGO-005065",
+      "track_id": "ARGO-005065",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 43.96551,
+      "lon": 17.83863,
+      "area_px": 29,
+      "intensity_index": 0.757,
+      "max_dbz": null,
+      "id": "ARGO-005066",
+      "track_id": "ARGO-005066",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 42.4104,
+      "lon": 12.62323,
+      "area_px": 28,
+      "intensity_index": 0.778,
+      "max_dbz": null,
+      "id": "ARGO-005050",
+      "track_id": "ARGO-005050",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 29.96,
+        "direction_deg": 103.3,
+        "distance_km": 4.99,
+        "interval_min": 10.0
+      },
+      "vectors": {}
+    },
+    {
+      "lat": 42.34085,
+      "lon": 19.41023,
+      "area_px": 28,
+      "intensity_index": 0.68,
+      "max_dbz": null,
+      "id": "ARGO-005067",
+      "track_id": "ARGO-005067",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 39.85945,
+      "lon": 15.894,
+      "area_px": 28,
+      "intensity_index": 0.84,
+      "max_dbz": null,
+      "id": "ARGO-005068",
+      "track_id": "ARGO-005068",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 44.41383,
+      "lon": 14.83381,
+      "area_px": 26,
+      "intensity_index": 0.848,
+      "max_dbz": null,
+      "id": "ARGO-005069",
+      "track_id": "ARGO-005069",
+      "motion": null,
+      "vectors": {}
+    },
+    {
+      "lat": 42.50312,
+      "lon": 11.96277,
+      "area_px": 26,
+      "intensity_index": 0.708,
+      "max_dbz": null,
+      "id": "ARGO-005052",
+      "track_id": "ARGO-005052",
+      "motion": {
+        "type": "observed",
+        "speed_kmh": 12.59,
+        "direction_deg": 30.7,
+        "distance_km": 2.1,
+        "interval_min": 10.0
+      },
       "vectors": {}
     }
   ]
