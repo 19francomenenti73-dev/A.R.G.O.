@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-11-28T03:30:00Z",
-  "previous_timestamp": "2026-11-28T03:20:00Z",
+  "timestamp": "2026-11-28T04:00:00Z",
+  "previous_timestamp": "2026-11-28T03:50:00Z",
   "interval_minutes": 10.0,
-  "previous_cells": 76,
-  "current_cells": 80,
-  "matched_cells": 65,
+  "previous_cells": 73,
+  "current_cells": 71,
+  "matched_cells": 55,
   "rejected_turns": 0,
   "quality_status": "experimental"
 }
